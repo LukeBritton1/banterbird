@@ -25,7 +25,7 @@ def add_post():
         json.dump(posts,file,indent=4)
 
 
-    return jsonify({"status": "success"}), 201
+    return jsonify({"status": "success"}), 201 
 
 if __name__ == '__main__':
     app.run(debug=True)

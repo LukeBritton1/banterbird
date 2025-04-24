@@ -39,5 +39,5 @@ function renderPost(post, isNew = false) {
     } catch (error) {
       console.error("Error fetching posts:", error);
     }
-  };
+  }; 
 
