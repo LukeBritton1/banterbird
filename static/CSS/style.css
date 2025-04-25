@@ -1,0 +1,17 @@
+/* style.css */
+
+body {
+    font-family: sans-serif;
+    background-color: #ff0303;
+    padding: 20px;
+    font-size:40px;
+    box-shadow: 5px 10px;
+    p.dashed {border-style: dashed;}
+}
+
+#feed {
+    margin-top: 30px;
+    font-size:20px;
+    p.dashed {border-style: dashed;}
+    background-color:#03f6ff;
+}
